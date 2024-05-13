@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(112, 112, 112), whitesmoke);
+    background-attachment: fixed;
+    margin-top: px;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: px;
+}
+
+.logo-imagem {
+    position: relative;
+    width: 30px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.logo-dois {
+    height: 190%;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: "Alata", sans-serif;
+    font-weight: 590;
+    padding-right: 20px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #ffffff;
+    text-shadow: #000 0 0 10px;
+    font-size: 19px;
+}
+
+section {
+    height: 53vh;
+    position: relative
+}
+
+section h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    line-height: 49px;
+    font-size: 40px;
+    font-family: "Alata", sans-serif;
+    color: aliceblue;
+}
+
+span {
+    color: #000;
+}
+
+.a {
+    color: aliceblue;
+}
+
+span .ponto {
+    color: #ffffff;
+}
+
+.botao {
+    border: none;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #000;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.botao:hover {
+    box-shadow: 0 0 20px #000;
+    transform: scale(0.90);
+}
+
+.botao a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Alata", sans-serif;
+    font-size: 13px;
+    letter-spacing: 10px;
+}
+
+.botao a:hover {
+    transition: .2s;
+    text-shadow: 0 0 7px #ffffff;
+}
+
+.imagem {
+    text-align: center;
+    position: relative;
+    margin-left: 60%;
+    bottom: 92%;
+
+}
+
+.imagem img {
+    text-align: center;
+    height: 400px;
+    width: 290px;
+    box-shadow: -12px 15px 20px #000000e0;
+    border-radius: 12px;
+    transition: 450ms;
+    cursor: pointer;
+
+}
+
+.imagem img:hover {
+    opacity: 0.80;
+
+}
+
+.siganos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+  
+}
+
+footer img {
+    width: 37px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: float 3s ease-in-out infinite;
+    transition: 200ms;
+}
+
+footer .instagram:hover {
+    box-shadow: rgb(176, 9, 65) 0 0 20px;
+    border-radius: 30px;
+
+}
+
+footer img:hover {
+    box-shadow: green 0 0 20px;
+    border-radius: 30px;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+}

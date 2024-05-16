@@ -154,7 +154,7 @@ header {
     .container{
     flex-direction: column;
         position: relative;
-        right: 45px;
+        right: 200px;
     }
     .container-dois {
         flex-direction: column;

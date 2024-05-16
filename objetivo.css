@@ -169,6 +169,9 @@ header {
         margin-left: 0;
         margin-right: 0;
     }
+    .menu{
+        padding-right: 40px;
+    }
 
     .objetivo p {
         margin-left: 20px;

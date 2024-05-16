@@ -170,7 +170,8 @@ header {
         margin-right: 0;
     }
     .logo-dois{
-        padding-left: 40px;
+        position: relative;
+        top: 300px;
     }
 
     .objetivo p {

@@ -151,10 +151,7 @@ header {
 }
 
 @media only screen and (max-width: 2400px) {
-     .logo-dois{
-        position: relative;
-        right: 40px;
-     }
+     
   .container {
     width: 80%;
     margin: 30px auto;
@@ -168,10 +165,6 @@ header {
         align-items: center;
         margin-left: 0;
         margin-right: 0;
-    }
-    .logo-dois{
-        position: relative;
-        right:40px;
     }
 
     .objetivo p {

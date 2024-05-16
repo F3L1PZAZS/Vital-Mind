@@ -169,8 +169,9 @@ header {
         right: 36px;
         
     }
-     .texto-um{
-        margin-right: 40px;
+      .texto-um{
+        position: relative;
+        right: 40px;
      }
     .imgTamanho-dois {
         width: 150px;

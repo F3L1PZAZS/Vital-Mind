@@ -149,3 +149,68 @@ main .p1 {
     margin-bottom: 100px;
     padding-right: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    .logo-imagem {
+        width: 20px;
+        height: 80px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    p {
+        margin-left: 20px;
+    }
+
+    main .p1 {
+        font-size: 16px;
+        width: 230px;
+        margin-top: 30px;
+    }
+
+    .div10 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div10 p {
+        width: 200px;
+        height: auto;
+        position: relative;
+        right: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .div10 .ul-1 {
+        width: 300px;
+        padding-right: 0;
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+
+    .div20 {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .div20 .texto,
+    .texto2 {
+        width: auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding-right: 15px;
+    }
+}

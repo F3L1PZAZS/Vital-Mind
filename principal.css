@@ -69,6 +69,7 @@ section h1 {
     font-size: 40px;
     font-family: "Alata", sans-serif;
     color: aliceblue;
+    
 }
 
 span {
@@ -118,7 +119,7 @@ span .ponto {
     text-align: center;
     position: relative;
     margin-left: 60%;
-    bottom: 92%;
+    bottom: 80%;
 
 }
 
@@ -137,6 +138,7 @@ span .ponto {
     opacity: 0.80;
 
 }
+
 
 .siganos {
     text-align: center;
@@ -178,5 +180,44 @@ footer img:hover {
 
     50% {
         transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-imagem {
+        margin-right: 160px;
+        padding-bottom: 20px;
+    }
+
+    .menu li a {
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+
+    section h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .botao {
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    .imagem {
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left:210px ;
     }
 }

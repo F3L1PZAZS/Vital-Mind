@@ -183,7 +183,7 @@ footer img:hover {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 3200px) {
     header {
         flex-direction: column;
         align-items: center;

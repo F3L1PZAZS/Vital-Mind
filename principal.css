@@ -195,10 +195,13 @@ footer img:hover {
 
     .logo-imagem {
         width: 100%;
-        height: auto;
-        
+        position: relative;
+        margin-top: 70px;
+        margin-right: 120px;
         justify-content: center;
         margin-left: 0;
+        
+        
     }
 
     .logo-dois {
@@ -207,21 +210,24 @@ footer img:hover {
         margin-top: 0;
         position: relative;
         left: 100px;
+        padding-bottom: 120px;
+        
     }
 
     .menu {
         width: 100%;
         text-align: center;
+        
 ̃        
     }
 
     .menu li {
-        display: block;
-        margin: 10px 0;
         display: inline-flex;
         width: 40%;
-     
-    }
+        
+         
+        
+    }        
 
     section {
         height: auto;
@@ -281,6 +287,7 @@ footer img:hover {
         height: auto;
         margin-left: 0;
         margin-top: 0;
+        padding-bottom: 50px;
     }
 
     .menu {
